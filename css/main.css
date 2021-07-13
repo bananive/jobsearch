@@ -1,0 +1,36 @@
+.main-header {
+    box-shadow: inset 0px -1px 0px #E2E2EA;
+}
+
+.content {
+    background-color: #f2f2f2;
+}
+
+.main-header .nav-item {
+    position: relative;
+    margin: 0 15px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #0062FF;
+}
+
+.main-header .nav-link.active:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+    width: 100%;
+    height: 3px;
+    background: #0062FF;
+}
+
+.email-form {
+    background: #44444F;
+    border-radius: 10px;
+}
+
+.jobs .card {
+    border: 0;
+    border-radius: 10px;
+}
